@@ -1,0 +1,22 @@
+{
+    "name": "modelizer/bank",
+    "description": "Best Example to understand OOPs and initial security layer concept.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mohammed Mudasir",
+            "email": "md.hyphen@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Modelizer\\Bank\\": "src/Modelizer/Bank/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~5.3"
+    }
+}
