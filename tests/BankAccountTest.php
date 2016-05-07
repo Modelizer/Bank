@@ -1,6 +1,6 @@
 <?php
 
-use Modelizer\Bank;
+use Coffer\Bank;
 
 class BankAccountTest extends PHPUnit_Framework_TestCase
 {
