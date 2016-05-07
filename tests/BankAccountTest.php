@@ -1,6 +1,7 @@
 <?php
 
-use Modelizer\Bank;
+use Coffer\Bank;
+use Coffer\Exceptions\InvalidBankAccountNumberException;
 
 class BankAccountTest extends PHPUnit_Framework_TestCase
 {
@@ -9,12 +10,12 @@ class BankAccountTest extends PHPUnit_Framework_TestCase
         $accountNumber = new Bank\BankAccountNumber(155);
         $account = new Bank\BankAccount($accountNumber);
 
-        $this->assertEquals(155, $account->getUserInfo());
+        $this->assertEquals(155, $account->getUser()->accountNumber);
     }
 
     public function testShouldThrowException()
     {
-        $this->expectException(Bank\Exceptions\InvalidBankAccountNumberException::class);
+        $this->expectException(InvalidBankAccountNumberException::class);
 
         $accountNumber = new Bank\BankAccountNumber('string');
         new Bank\BankAccount($accountNumber);

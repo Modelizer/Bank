@@ -1,5 +1,5 @@
 <?php
-namespace Modelizer\Bank\Exceptions;
+namespace Coffer\Exceptions;
 
 use Exception;
 

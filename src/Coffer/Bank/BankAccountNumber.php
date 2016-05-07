@@ -1,13 +1,13 @@
 <?php
-namespace Modelizer\Bank;
+namespace Coffer\Bank;
 
-use Modelizer\Bank\Contracts\BankAccountNumberContract;
-use Modelizer\Bank\Exceptions\InvalidBankAccountNumberException;
+use Coffer\Contracts\BankAccountNumberContract;
+use Coffer\Exceptions\InvalidBankAccountNumberException;
 
 /**
  * Class BankAccountNumber
  *
- * @package Modelizer\Bank
+ * @package Coffer\Bank
  * @author Mohammed Mudasir <md.hyphen@gmail.com>
  */
 class BankAccountNumber implements BankAccountNumberContract
@@ -46,7 +46,9 @@ class BankAccountNumber implements BankAccountNumberContract
     public function isValid()
     {
         if (! is_numeric($this->number)) {
-            throw new InvalidBankAccountNumberException("Invalid Bank Account Number \"" . $this->number . "\" given.");
+            throw new InvalidBankAccountNumberException(
+                "Invalid Bank Account Number \"" . $this->number . "\" given."
+            );
         }
 
         return true;

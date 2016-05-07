@@ -1,10 +1,10 @@
 <?php
-namespace Modelizer\Bank\Contracts;
+namespace Coffer\Contracts;
 
 /**
  * Bank Account Number Contract
  *
- * @package Modelizer\Bank\Contracts
+ * @package Coffer\Bank\Contracts
  * @author Mohammed Mudasir <md.hyphen@gmail.com>
  */
 interface BankAccountNumberContract

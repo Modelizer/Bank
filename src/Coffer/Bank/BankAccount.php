@@ -1,7 +1,8 @@
 <?php
-namespace Modelizer\Bank;
+namespace Coffer\Bank;
 
-use Modelizer\Bank\Contracts\BankAccountNumberContract;
+use Coffer\Contracts\BankAccountNumberContract;
+use Coffer\DataCenter\UserInformation;
 
 /**
  * Handle Bank Account related information
@@ -17,9 +18,10 @@ class BankAccount
         $this->accountNumber = $accountNumber;
     }
 
-    public function getUserInfo()
+    public function getUser()
     {
-        return $this->accountNumber->get();
+        $user = new UserInformation();
+        return $user->byAccountNumber($this->accountNumber);
     }
 
 }
