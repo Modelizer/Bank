@@ -1,7 +1,7 @@
 <?php
-namespace Modelizer\Bank;
+namespace Coffer\Bank;
 
-use Modelizer\Bank\Contracts\BankAccountNumberContract;
+use Coffer\Bank\Contracts\BankAccountNumberContract;
 
 /**
  * Handle Bank Account related information

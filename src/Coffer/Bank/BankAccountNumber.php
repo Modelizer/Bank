@@ -1,13 +1,13 @@
 <?php
-namespace Modelizer\Bank;
+namespace Coffer\Bank;
 
-use Modelizer\Bank\Contracts\BankAccountNumberContract;
-use Modelizer\Bank\Exceptions\InvalidBankAccountNumberException;
+use Coffer\Bank\Contracts\BankAccountNumberContract;
+use Coffer\Bank\Exceptions\InvalidBankAccountNumberException;
 
 /**
  * Class BankAccountNumber
  *
- * @package Modelizer\Bank
+ * @package Coffer\Bank
  * @author Mohammed Mudasir <md.hyphen@gmail.com>
  */
 class BankAccountNumber implements BankAccountNumberContract
