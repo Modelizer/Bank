@@ -1,4 +1,4 @@
-# Chapter 1
+# Chapter 1 - Lets get started
 
 [![SensioLabsInsight](https://insight.sensiolabs.com/projects/8fff287c-ba42-490f-bc31-3c7c804d9006/mini.png)](https://insight.sensiolabs.com/projects/8fff287c-ba42-490f-bc31-3c7c804d9006) 
 [![Build Status](https://travis-ci.org/Modelizer/Bank.svg?branch=STEP-1)](https://travis-ci.org/Modelizer/Bank)
@@ -33,13 +33,13 @@ I can list tons of issues but we will proceed further keeping `README.md` length
 * will push our source code into `src` directory. And will add psr-4 in our `composer.json` file
 * PSR-4 is an autoloading standard which help us to load classes on bases of our directory structure.
 Its simple to implement, add this line of code to composer.json file.
-```
+```js
 {
     "autoload": {
         "psr-4": {
             "Coffer\\": "src/Coffer/"
         }
-    },
+    }
 }
 ```
 
@@ -48,7 +48,7 @@ Notes:
 * To escape first backward slash in namespace another backward slash is added like this `\\`.
 * run `composer install` from cli.
 
-#### Now i will go fast. Its code time!!!
+#### Its code time!!!
 * Refer `BankAccount` class where we have inject Account Number as a dependency by a contract(Interface)
 * When i say `Contract` it simple means `Interface`. You will get more clarity in next chapter.
 * Contract restrict classes to follow those rules which are laid down in contract.
