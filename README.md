@@ -3,14 +3,17 @@
 [![SensioLabsInsight](https://insight.sensiolabs.com/projects/8fff287c-ba42-490f-bc31-3c7c804d9006/mini.png)](https://insight.sensiolabs.com/projects/8fff287c-ba42-490f-bc31-3c7c804d9006) 
 [![Build Status](https://travis-ci.org/Modelizer/Bank.svg?branch=CHAPTER-2)](https://travis-ci.org/Modelizer/Bank)
 
-Repository will help developer who want to learn new things in PHP beyond average coding.
-Branches are treated as Chapters.
+Idea to create this repository is to help developers to enhance there skills
+and who want to learn new things in PHP beyond average coding.
+
+Please remember branch will be treated as Chapter.
 
 #### Topics which we will cover up:
 
 * Directory Structure.
 * SOLID and DRY Principle.
-* PSR-2 and PSR-4 standards.
+* PSR's standards.
+* Raw Sql query vs ORM.
 * Design patterns such as Repository, Command Oriented and much more.
 * Security Checks.
 * Tight Coding.
@@ -18,6 +21,7 @@ Branches are treated as Chapters.
 * Package building and injection.
 * Database Normalization.
 * Seeders and Migration.
+* When to build custom framework.
 
 ##### Note:
 * Repository is in development mode, more things can be added for more clarity.
