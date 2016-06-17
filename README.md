@@ -1,6 +1,6 @@
 # Introduction
 
-[![SensioLabsInsight](https://insight.sensiolabs.com/projects/8fff287c-ba42-490f-bc31-3c7c804d9006/mini.png)](https://insight.sensiolabs.com/projects/8fff287c-ba42-490f-bc31-3c7c804d9006) 
+[![SensioLabsInsight](https://insight.sensiolabs.com/projects/33bf1eb1-f008-409b-acfa-63bd7311478c/mini.png)](https://insight.sensiolabs.com/projects/33bf1eb1-f008-409b-acfa-63bd7311478c)
 [![Build Status](https://travis-ci.org/Modelizer/Bank.svg?branch=CHAPTER-2)](https://travis-ci.org/Modelizer/Bank)
 
 Idea to create this repository is to help developers to enhance there skills
