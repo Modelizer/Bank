@@ -1,19 +1,18 @@
 <?php
+
 namespace Coffer\Bank\Contracts;
 
 /**
- * Bank Account Number Contract
+ * Bank Account Number Contract.
  *
- * @package Coffer\Bank\Contracts
  * @author Mohammed Mudasir <md.hyphen@gmail.com>
  */
 interface BankAccountNumberContract
 {
     /**
-     * Bank Account Number
+     * Bank Account Number.
      *
-     * @return integer
+     * @return int
      */
     public function get();
-
 }
