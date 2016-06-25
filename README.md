@@ -1,6 +1,6 @@
 # Chapter 1 - Lets get started
 
-[![SensioLabsInsight](https://insight.sensiolabs.com/projects/33bf1eb1-f008-409b-acfa-63bd7311478c/mini.png)](https://insight.sensiolabs.com/projects/33bf1eb1-f008-409b-acfa-63bd7311478c)
+[![StyleCI](https://styleci.io/repos/57591685/shield)](https://styleci.io/repos/57591685)
 [![Build Status](https://travis-ci.org/Modelizer/Bank.svg?branch=STEP-1)](https://travis-ci.org/Modelizer/Bank)
 
 First starting with basic.
@@ -11,9 +11,9 @@ A customer came to a banker to update his account details. Banker will ask for h
 #### Our task is to give that information to the banker by keeping security in mind.
 In this case, fresher will create a file called `get_user_information.php` and will right database query which will give us expected result.
 
-This is totally open for issue and has many limitation such as code is not re-usable,
-code will have many repetition such as `mysqi_query`, `mysqli_fetch_assoc` and much more.
-This things will be repeated for every task we perform; which is weird.
+This is totally open for issue and has many limitations such as code is not re-usable,
+the code will have many repetitions such as `mysqli_query`, `mysqli_fetch_assoc` and much more.
+This thing will be repeated for every task we perform; which is weird.
 
 My first advice to fresher is DO NOT REPEAT YOURSELF! and we call it as a DRY Principle.
 
