@@ -19,5 +19,4 @@ class BankAccountTest extends PHPUnit_Framework_TestCase
         $accountNumber = new Bank\BankAccountNumber('string');
         new Bank\BankAccount($accountNumber);
     }
-
 }

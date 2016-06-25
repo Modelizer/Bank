@@ -1,13 +1,13 @@
 <?php
+
 namespace Coffer\Bank;
 
 use Coffer\Bank\Contracts\BankAccountNumberContract;
 use Coffer\Bank\Exceptions\InvalidBankAccountNumberException;
 
 /**
- * Class BankAccountNumber
+ * Class BankAccountNumber.
  *
- * @package Coffer\Bank
  * @author Mohammed Mudasir <md.hyphen@gmail.com>
  */
 class BankAccountNumber implements BankAccountNumberContract
@@ -20,7 +20,7 @@ class BankAccountNumber implements BankAccountNumberContract
     /**
      * @param $number
      */
-    function __construct($number)
+    public function __construct($number)
     {
         $this->number = $number;
 
@@ -28,9 +28,9 @@ class BankAccountNumber implements BankAccountNumberContract
     }
 
     /**
-     * Bank Account Number
+     * Bank Account Number.
      *
-     * @return integer
+     * @return int
      */
     public function get()
     {
@@ -38,18 +38,18 @@ class BankAccountNumber implements BankAccountNumberContract
     }
 
     /**
-     * Check whether given bank account number is valid
+     * Check whether given bank account number is valid.
+     *
+     * @throws InvalidBankAccountNumberException
      *
      * @return bool
-     * @throws InvalidBankAccountNumberException
      */
     public function isValid()
     {
-        if (! is_numeric($this->number)) {
-            throw new InvalidBankAccountNumberException("Invalid Bank Account Number \"" . $this->number . "\" given.");
+        if (!is_numeric($this->number)) {
+            throw new InvalidBankAccountNumberException('Invalid Bank Account Number "'.$this->number.'" given.');
         }
 
         return true;
     }
-
 }

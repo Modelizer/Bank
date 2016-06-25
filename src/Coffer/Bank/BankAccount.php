@@ -1,10 +1,11 @@
 <?php
+
 namespace Coffer\Bank;
 
 use Coffer\Bank\Contracts\BankAccountNumberContract;
 
 /**
- * Handle Bank Account related information
+ * Handle Bank Account related information.
  *
  * @author Mohammed Mudasir <md.hyphen@gmail.com>
  */
@@ -21,5 +22,4 @@ class BankAccount
     {
         return $this->accountNumber->get();
     }
-
 }
