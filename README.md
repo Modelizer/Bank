@@ -1,18 +1,15 @@
 # Chapter 1 - Lets get started
 
-[![SensioLabsInsight](https://insight.sensiolabs.com/projects/8fff287c-ba42-490f-bc31-3c7c804d9006/mini.png)](https://insight.sensiolabs.com/projects/8fff287c-ba42-490f-bc31-3c7c804d9006) 
+[![SensioLabsInsight](https://insight.sensiolabs.com/projects/33bf1eb1-f008-409b-acfa-63bd7311478c/mini.png)](https://insight.sensiolabs.com/projects/33bf1eb1-f008-409b-acfa-63bd7311478c)
 [![Build Status](https://travis-ci.org/Modelizer/Bank.svg?branch=STEP-1)](https://travis-ci.org/Modelizer/Bank)
 
 First starting with basic.
 
 #### Lets imagine logic which we are going to build.
-Customer came to a banker to update his account details.
-Banker will ask for his account number to get user details.
-Once details are fetch from system its easy for banker to update.
+A customer came to a banker to update his account details. Banker will ask for his account number to get user details. Once details are fetched from a system it's easy for a banker to update.
 
-#### Our task is to give those information to banker by keeping security in mind.
-In this case fresher will create a file called `get_user_information.php` and will
-right database query which will give us expected result.
+#### Our task is to give that information to the banker by keeping security in mind.
+In this case, fresher will create a file called `get_user_information.php` and will right database query which will give us expected result.
 
 This is totally open for issue and has many limitation such as code is not re-usable,
 code will have many repetition such as `mysqi_query`, `mysqli_fetch_assoc` and much more.
@@ -73,9 +70,8 @@ In this case we just need to create a class by giving country as a namespace and
 * We created a class for `InvalidBankAccountNumber` when ever invalid account number is provided while
 instantiating `BankAccount` class `InvalidBankAccountNumber` exception will be thrown.
 
-Note: 
+Note:
 
 * Repository is in development mode, more things can be added for more clarity.
 * Contribute to make more clear understanding of programming concept and topic listed above.
 * You can add your own topics if you need such as design patterns, but make sure example should be related to banking.
-
